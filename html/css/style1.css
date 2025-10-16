@@ -1,0 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto Thin";
+
+    font-size: 18px;
+}
+
+li > a {
+    color: rgba(93, 90, 90, 0.96);
+}
+
+.shadow {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.name-p, .pro-heading {
+    font-family: "Microsoft JhengHei";
+}
+
+.q-p {
+    color: rgb(96, 96, 96);
+}
+
+.intro-p {
+    font-family: "Roboto Light";
+}
+
+input[placeholder] {
+    color: rgb(96, 96, 96);
+}
+
+
+.post-btn {
+    background: #6D99D3;
+
+    transition: background 0.5s ease-in-out;
+}
+
+
+.post-btn:hover {
+    background: #436a9a;
+}
+
+.post-btn:active {
+    background: #6D99D3;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.error {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #a82121;
+    margin-left: 10px;
+    font-weight:normal;
+}
+
